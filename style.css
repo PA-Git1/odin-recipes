@@ -4,6 +4,11 @@ body {
 
 h1 {
     font-weight: 900;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
 }
 
 .lasagna,
@@ -12,4 +17,9 @@ h1 {
     background: rgb(231, 228, 9);
     font-size: 24px;
     font-weight: bold;
+}
+
+.food {
+    height: auto;
+    width: 310px;
 }
