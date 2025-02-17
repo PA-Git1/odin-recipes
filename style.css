@@ -1,22 +1,38 @@
-body {
-    font-family: "Times New Roman", Verdana, serif;
+* {
+    box-sizing: border-box;
 }
 
-h1 {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainheader {
+    font-size: 40px;
     font-weight: 900;
     text-align: center;
 }
 
-h2 {
-    font-weight: bold;
+a,
+a:visited,
+a:hover,
+a:focus,
+a:hover, a:active {
+    text-decoration: none;
+    color: black;
 }
 
 .lasagna,
 .steak,
 .chicken {
-    background: rgb(231, 228, 9);
+    display: block;
+    background: rgb(171, 209, 212);
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 10px auto;
 }
 
 .food {
